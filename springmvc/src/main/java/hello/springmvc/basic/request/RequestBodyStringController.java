@@ -54,7 +54,7 @@ public class RequestBodyStringController {
 
     @ResponseBody
     @PostMapping("/request-body-string-v4")   //자주 사용(실무에서)
-    public String requestBodyStringV4(@RequestBody String messageBody){
+    public String requestbodystringv4(@RequestBody String messageBody){
 
 
         log.info("messageBody={}",messageBody);
